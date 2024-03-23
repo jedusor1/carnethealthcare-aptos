@@ -6,7 +6,7 @@ echo "##### Publishing module #####"
 
 # Profile is the account you used to execute transaction
 # Run "aptos init" to create the profile, then get the profile name from .aptos/config.yaml
-PROFILE=my_profile
+PROFILE=0x9903da86deaaa17874f3fc9360a6a3cc589213bbab392c465a8883bb73547337
 
 ADDR=0x$(aptos config show-profiles --profile=$PROFILE | grep 'account' | sed -n 's/.*"account": \"\(.*\)\".*/\1/p')
 
@@ -15,4 +15,4 @@ ADDR=0x$(aptos config show-profiles --profile=$PROFILE | grep 'account' | sed -n
 ~/go/src/github.com/aptos-labs/aptos-core/target/debug/aptos move publish \
 	--assume-yes \
   --profile $PROFILE \
-  --named-addresses aptogotchi=$ADDR
+  --named-addresses carnetrxaptos=$ADDR
