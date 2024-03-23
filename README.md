@@ -1,4 +1,4 @@
-#Carnet Healthcare - A Health Insurance dApp on Aptos
+#Carnet Rx - A Health Insurance dApp on Aptos#
 
 The Carnet Rx Prescriptions dApp is an Aptos blockchain-based application that allows doctors to mint self-sovereign soul-bound NFTs that then become prescriptions.
 
